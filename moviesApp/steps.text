@@ -1,0 +1,14 @@
+1. Инициализиране на приложение -> npm init --y
+
+2. Инсталиране на Lite-server -> npm i lite-server -> След което отиваме в package.json и в scripts добавяме "start": "lite-server"
+
+3. Bootstrap CSS слагаме го в html под script ->  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+4. Bundle под горния ред ->     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+5. Инсталиране на Page -> npm i page
+
+6. Инсталиране на lit-html templating system -> npm i lit-html
+
+7. Стартиране на сървър в package.json "server": "cd server && node ./server.js" ; npm run server
